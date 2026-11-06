@@ -1,5 +1,5 @@
 [build]
-  command = "unzip -o h_by_HARSHA_reservations_INSTALLATION.zip && npm install"
+  command = "unzip -o h_by_HARSHA_reservations_INSTALLATION.zip && npm ci && npm test"
   publish = "public"
   functions = "netlify/functions"
 
